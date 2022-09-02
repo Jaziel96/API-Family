@@ -31,7 +31,7 @@ class FamilyStructure:
         adding_member = {}
 
         if 'id' in member:
-            member['id']
+            #member['id']
             adding_member['id'] = int(member['id'])
         else:
             adding_member['id'] = self._generateId()
